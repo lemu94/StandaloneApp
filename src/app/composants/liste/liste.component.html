@@ -1,0 +1,13 @@
+
+<div id="example">
+    <h1>Voici  : </h1>
+    <ul class="list">
+
+        @for (item of datats | async ; track $index) {
+
+            <app-elements [element]="item"> </app-elements>
+        }
+      
+  
+    </ul>
+  </div>
