@@ -17,7 +17,7 @@ export class ListeComponent implements OnInit {
 
   Data_elements : Elements []=[];
   datats!: Observable<Elements[]>;
-  constructor(private ListeService : ElementsService)
+  constructor(readonly ListeService : ElementsService)
   {
 
   }
